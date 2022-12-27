@@ -27,7 +27,7 @@ app.post('/',(request,response)=>{
     response.send(request.body)
 })  
 
-//서버를 실행합니다.
+//서버를 실행합니다.!
 app.listen(52273,()=>{
     console.log('Server running at http://127.0.0.1:52273')
 })
